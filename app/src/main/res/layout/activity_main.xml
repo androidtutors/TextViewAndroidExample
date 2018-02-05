@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- TODO 1 : Change from ConstraintLayout to LinearLayout -->
+<!-- TODO 2 : Delete all the attributes related to ConstraintLayout -->
+<!-- TODO 3 : Change orientation to vertical -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -6,12 +9,14 @@
     android:orientation="vertical"
     tools:context="com.androidtutors.textviewandroidexample.MainActivity">
 
+    <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
     <TextView
+        android:id="@+id/textview_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textview_hello"/>
+        android:text="Hello World!" />
 
+    <!-- TODO 5 : Add another textview with an id textview-learn and text "Learn" -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,10 +25,8 @@
 
 
 
-    <!-- TODO 1 : Change from ConstraintLayout to LinearLayout -->
-    <!-- TODO 2 : Delete all the attributes related to ConstraintLayout -->
-    <!-- TODO 3 : Change orientation to vertical -->
-    <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
-    <!-- TODO 5 : Add another textview with an id textview-learn and text "Learn" -->
+
+
+
 
 </LinearLayout>
